@@ -1,0 +1,106 @@
+.contenedor{/*Para el primer contenedor creamos una "class" para que el contenedor se modifique aquí*/
+    text-align: center;/*Centra el texto dentro del elemento.*/
+    margin: auto;/*Centra el elemento horizontalmente dentro de su contenedor.*/
+    background-color: rgb(20, 107, 183);/*Establece el color de fondo del elemento en un tono de azul
+    definido por sus valores RGB.*/
+    height: 100px;/*Establece la altura del elemento en 100 píxeles.*/
+    width: 250px;/*Establece el ancho del elemento en 250 píxeles.*/
+    padding: 10px;/*Agrega un relleno interno de 10 píxeles alrededor del contenido del elemento.*/
+}
+.hijo{/*Para modificarse se agregó un "class" a otro contenedor*/
+    height: 100px;/*Establece la altura del elemento en 100 píxeles.*/
+    width: 3px;/*Establece el ancho del elemento en 3 píxeles.*/
+    margin: auto;/*Centra el elemento horizontalmente dentro de su contenedor.*/
+    align-items: center;/*Este estilo alinea los elementos secundarios del contenedor flexbox verticalmente 
+    en el centro del contenedor. Si el contenedor es un eje principal horizontal, esto alinea los elementos 
+    secundarios verticalmente; si el contenedor es un eje principal vertical, esto alinea los elementos 
+    secundarios horizontalmente.*/
+    background-color: black;/*Establece el color de fondo del elemento en un tono negro*/
+}
+
+.son{/*Para modificarse se agregó un "class" a otro contenedor*/
+    height: 3px;/*Establece la altura del elemento en 3 píxeles.*/
+    width: 500px;/*Establece el ancho del elemento en 500 píxeles.*/
+    margin: auto;/*Centra el elemento horizontalmente dentro de su contenedor.*/
+    align-items: center;/*Este estilo alinea los elementos secundarios del contenedor flexbox verticalmente 
+    en el centro del contenedor. Si el contenedor es un eje principal horizontal, esto alinea los elementos 
+    secundarios verticalmente; si el contenedor es un eje principal vertical, esto alinea los elementos 
+    secundarios horizontalmente.*/
+    background-color: black;/*Establece el color de fondo del elemento en un tono negro*/
+}
+
+.fuck{/*Para modificarse se agregó un "class" a otro contenedor*/
+    height: 100px;/*Establece la altura del elemento en 100 píxeles.*/
+    width: 3px;/*Establece el ancho del elemento en 3 píxeles.*/
+    margin: auto;/*Centra el elemento horizontalmente dentro de su contenedor.*/
+    position: absolute;/*Establece la posición del elemento de forma absoluta 
+    en relación con su contenedor más cercano que tenga una posición distinta a static.*/
+    top: 230px;/* Coloca el borde superior del elemento a una distancia de 230 píxeles desde el borde
+    superior de su contenedor de posicionamiento.*/
+    left: 390px;/*Coloca el borde izquierdo del elemento a una distancia de 390 píxeles 
+    desde el borde izquierdo de su contenedor de posicionamiento.*/
+    background-color: black;/*Establece el color de fondo del elemento en un tono negro*/
+}
+
+.uno{/*Para modificarse se agregó un "class" a otro contenedor*/
+    height: 100px;;/*Establece la altura del elemento en 100 píxeles.*/
+    width: 3px;/*Establece el ancho del elemento en 3 píxeles.*/
+    margin: auto;/*Centra el elemento horizontalmente dentro de su contenedor.*/
+    position: absolute;/*Establece la posición del elemento de forma absoluta 
+    en relación con su contenedor más cercano que tenga una posición distinta a static.*/
+    top: 230px;/*Establece la posición del elemento de forma absoluta en relación con 
+    su contenedor más cercano que tenga una posición distinta a static.*/
+    right: 390px;/*Esto coloca el borde derecho del elemento a una distancia de 390 píxeles desde el 
+    borde derecho de su contenedor de posicionamiento.*/
+    background-color: black;/*Establece el color de fondo del elemento en un tono negro*/
+}
+
+.david{/*Para modificarse se agregó un "class" a otro contenedor*/
+    text-align: center;/*Centra el texto dentro del elemento.*/
+    margin: auto;/*Centra el elemento horizontalmente dentro de su contenedor.*/
+    position: absolute;/*Establece la posición del elemento de forma absoluta 
+    en relación con su contenedor más cercano que tenga una posición distinta a static.*/
+    background-color: rgb(20, 107, 183);/*Establece el color de fondo del elemento en un tono de azul
+    definido por sus valores RGB.*/
+    height: 100px;/*Establece la altura del elemento en 100 píxeles.*/
+    width: 250px;/*Establece el ancho del elemento en 250 píxeles.*/
+    padding: 10px;/*Agrega un relleno interno de 10 píxeles alrededor del contenido del elemento.*/
+    top: 330px;/*Coloca el borde superior del elemento a una distancia de 230 píxeles desde el borde 
+    superior de su contenedor de posicionamiento.*/
+    right: 250px;/*Esto coloca el borde derecho del elemento a una distancia de 250 píxeles desde el 
+    borde derecho de su contenedor de posicionamiento.*/
+}
+.vic{/*Para modificarse se agregó un "class" a otro contenedor*/
+    text-align: center;/*Centra el texto dentro del elemento.*/
+    margin: auto;/*Centra el elemento horizontalmente dentro de su contenedor.*/
+    position: absolute;/*Establece la posición del elemento de forma absoluta 
+    en relación con su contenedor más cercano que tenga una posición distinta a static.*/
+    background-color: rgb(20, 107, 183);/*Establece el color de fondo del elemento en un tono de azul
+    definido por sus valores RGB.*/
+    height: 100px;/*Establece la altura del elemento en 100 píxeles.*/
+    width: 250px;/*Establece el ancho del elemento en 250 píxeles.*/
+    padding: 10px;/*Agrega un relleno interno de 10 píxeles alrededor del contenido del elemento.*/
+    top: 330px;/*Coloca el borde superior del elemento a una distancia de 230 píxeles desde el borde 
+    superior de su contenedor de posicionamiento.*/
+    left: 250px;/*Coloca el borde izquierdo del elemento a una distancia de 250 píxeles 
+    desde el borde izquierdo de su contenedor de posicionamiento.*/
+}
+
+.video-contenedor {/*Ahora podemos modidicar el contenedor del video ajustandolo a nuestros gustos*/
+    position: fixed;/*Establece la posición del elemento de manera fija en relación con la ventana del
+     navegador, de modo que permanece en la misma posición incluso cuando se desplaza la página.*/
+    top: 0;/*Esto coloca el borde superior del elemento en la parte superior de su contenedor de 
+    posicionamiento, es decir, en la posición de 0 píxeles desde el borde superior del contenedor.*/
+    left: 0;/*Esto coloca el borde izquierdo del elemento en la posición de 0 píxeles desde el borde
+     izquierdo de su contenedor de posicionamiento.*/
+    width: 100%;/* Esto establece que el elemento debe ocupar el 100% del ancho disponible de su 
+    contenedor padre.*/
+    height: 100%;/*Establece la altura del elemento para que ocupe el 100% de la altura de su contenedor padre.*/
+    z-index: -1;/* Define el orden de apilamiento del elemento en relación con otros elementos en la página. 
+    Un valor de -1 indica que el elemento estará detrás de otros elementos.*/
+}
+.video-fondo {/*Por último establecemos el tamaño del video de fondo*/
+    width: 100%;/* Esto establece que el elemento debe ocupar el 100% del ancho disponible de su 
+    contenedor padre.*/
+    height: 100%;/*Establece la altura del elemento para que ocupe el 100% de la altura de su contenedor padre.*/
+}
